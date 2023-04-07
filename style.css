@@ -4,11 +4,12 @@
     background-color: #555;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top : 100px;
+    align-items: flex-start;
 }
 .water{
-    width:400px;
-    height: 400px;
+    width:200px;
+    height: 200px;
     background-color: skyblue;
     border-radius: 50%;
     position: relative;
@@ -18,9 +19,9 @@
 .water:before, .water:after{
     content:'';
     position: absolute;
-    width:400px;
-    height: 400px;
-    top:-150px;
+    width:200px;
+    height: 200px;
+    top:-50px;
     background-color: #fff;
 }
 .water:before{
